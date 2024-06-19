@@ -1,4 +1,3 @@
-
 .container-fluid{
 	margin: 0;
 	padding: 0;
@@ -7,19 +6,19 @@
 
 .navbar{
 	border-radius: 0px;
-	background-color: rgba(0,0,0,0.8);
+	background-color: #343a40; /* Dark grey background */
     font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-brand{
   font-size: 35px;
-  color: white;
+  color: #f8f9fa; /* Light grey text */
   padding-left: 25px;
   font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-brand:hover{
-	color: white;
+	color: #ffc107; /* Amber text on hover */
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -38,21 +37,20 @@
 }
 
 .navbar-toggle{
-	border: 2px solid white;
+	border: 2px solid #f8f9fa; /* Light grey border */
 	margin-right: 25px;
     font-family:'Courier New', Courier, monospace;
 }
 
 .icon-bar{
-	background-color: white;
+	background-color: #f8f9fa; /* Light grey icon bars */
     font-family:'Courier New', Courier, monospace;
 }
-
 
 .main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #000000;
+  color: #343a40; /* Dark grey text */
   font-size: 50px;
   font-family:'Courier New', Courier, monospace;
   font-weight: bold;
@@ -68,20 +66,18 @@ li{
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
+	background-color: #f8f9fa; /* Light grey background */
+	border-bottom: 1px solid #343a40; /* Dark grey border */
+	color: #343a40; /* Dark grey text */
 	display: block;
     font-family:'Courier New', Courier, monospace;
 }
 
 .menu-item:hover{
-	background-color: rgba(0,0,0,0.9);
-	color: rgba(0,0,0,0.4);
+	background-color: #ffc107; /* Amber background on hover */
+	color: #343a40; /* Dark grey text on hover */
     font-family:'Courier New', Courier, monospace;
 }
-
-
 
 .row{
 	margin: 20px;
@@ -92,8 +88,8 @@ li{
 	margin: 20px;
 	width: auto;
 	height: auto;
-	color: black;
-	background-color: rgba(0,0,0,0.2);
+	color: #343a40; /* Dark grey text */
+	background-color: #f8f9fa; /* Light grey background */
 	font-family:'Courier New', Courier, monospace;
 	padding: 20px;
 }
@@ -103,4 +99,5 @@ li{
 	font-size: 20px;
 	font-weight: bold;
     font-family:'Courier New', Courier, monospace;
+    color: #343a40; /* Dark grey text */
 }
