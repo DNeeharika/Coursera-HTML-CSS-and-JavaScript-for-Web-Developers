@@ -2,26 +2,31 @@
 .container-fluid{
 	margin: 0;
 	padding: 0;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .navbar{
 	border-radius: 0px;
 	background-color: rgba(0,0,0,0.8);
+    font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-brand{
   font-size: 35px;
   color: white;
   padding-left: 25px;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-brand:hover{
 	color: white;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .nav{
 	margin: 0;
 	padding: 0;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-nav{
@@ -29,22 +34,25 @@
   text-align: center;
   margin: 0;
   padding: 0;
+  font-family:'Courier New', Courier, monospace;
 }
 
 .navbar-toggle{
 	border: 2px solid white;
 	margin-right: 25px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .icon-bar{
 	background-color: white;
+    font-family:'Courier New', Courier, monospace;
 }
 
 
 .main-title{
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: #000000;
   font-size: 50px;
   font-family:'Courier New', Courier, monospace;
   font-weight: bold;
@@ -53,6 +61,7 @@
 li{
 	box-sizing: border-box;
 	width: 100%;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .menu-item{
@@ -63,17 +72,20 @@ li{
 	border-bottom: 1px solid black;
 	color: black;
 	display: block;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .menu-item:hover{
 	background-color: rgba(0,0,0,0.9);
 	color: rgba(0,0,0,0.4);
+    font-family:'Courier New', Courier, monospace;
 }
 
 
 
 .row{
 	margin: 20px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .content-box{
@@ -90,4 +102,5 @@ li{
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
 }
